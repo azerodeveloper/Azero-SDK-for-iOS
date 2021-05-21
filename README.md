@@ -44,8 +44,6 @@ Azero for iOS 可支持在绝大多数iOS设备直接安装试用，可体验Aze
 
 2. 接下来创建设备，请参考[设备接入介绍](https://document-azero.soundai.com.cn/azero/IntroductionToDeviceCenter.html)进行设备注册。
 
-   ![demo](/doc/demo.png)
-
 3. 创建完毕后，在**设备中心 -> 已创建设备**页面可以看到创建的设备，点击对应设备的“查看”进入设备信息页面，页面中的“产品ID”项对应的值即为productId；"Client ID"项对应的值即为clientId。
 
 ##  试用步骤<a id="trialStep"> </a>
@@ -57,8 +55,7 @@ Azero for iOS 可支持在绝大多数iOS设备直接安装试用，可体验Aze
 3）打开Azero_Sample_for_iOS的demo示例
 
 3）将申请的client id 、product id 填入AppDemo的config.json中，并传入设备唯一标识，其他默认即可。示例如下所示：
-
-![demo](/Users/mac/Desktop/demo.png)
+![demo (/doc/demo.png)](/doc/demo.png)
 
 4）安装app到设备端
 
