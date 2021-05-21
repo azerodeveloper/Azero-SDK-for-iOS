@@ -3,7 +3,7 @@
 - Azero SDK for iOS 是⼀套由SoundAI提供的软件库，使iOS开发者可将SoundAI的语音唤醒、免唤醒、语音识别、技能等集成到自己的APP中使用。
 - 关于 Azero SDK for iOS 的集成，请查阅我们详细的集成指南和 API 指南，也可参考下载的压缩包中附带的示例 demo 来通过代码学习本 SDK 的用法。
 
-## Azero 系统结构![image-1.b1ddbc56 (/Users/mac/Desktop/image-1.b1ddbc56%20(1).png)](/Users/mac/Desktop/image-1.b1ddbc56 (1).png)
+## Azero 系统结构![image (/doc/image.png)](/doc/image.png)
 
 - 设备端：RTOS、Android、Linux、iOS、Windows等主流系统和平台均已支持。这些设备既可以作为控制端的入口，也可作为被控制的IoT设备。
 - 服务端：技能的开发和部署属于这一部分，开发者主需要关注的是设备中心、技能商店、IoT，其中设备中心用来对产品进行管理，某个产品可根据产品定义配置所需的技能；技能商店包括Azero官方提供的技能、第三方开发的技能和“我的技能”，其中“我的技能”为自己开发的技能，可作为私有技能仅供自己设计的产品使用，从而做出差异化的优质产品，它包含自定义技能、内容信源、智能家居三类，也可开放成公有技能供其他使用者配置调用；IoT设备主要指接入到网络的物联网设备。
@@ -44,7 +44,7 @@ Azero for iOS 可支持在绝大多数iOS设备直接安装试用，可体验Aze
 
 2. 接下来创建设备，请参考[设备接入介绍](https://document-azero.soundai.com.cn/azero/IntroductionToDeviceCenter.html)进行设备注册。
 
-   ![demo](/Users/mac/Desktop/demo.png)
+   ![demo](/doc/demo.png)
 
 3. 创建完毕后，在**设备中心 -> 已创建设备**页面可以看到创建的设备，点击对应设备的“查看”进入设备信息页面，页面中的“产品ID”项对应的值即为productId；"Client ID"项对应的值即为clientId。
 
