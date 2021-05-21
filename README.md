@@ -107,7 +107,7 @@ Azero for iOS 可支持在绝大多数iOS设备直接安装试用，可体验Aze
 完成上述过程，您已经对Azero的语音基本交互过程有了初步体验，如需将Azero SDK集成到您的工程，并针对您的自有设备进行唤醒、识别等语音交互效果的调优请参照进阶文档。
 
 - [声智Azero系统说明文档](https://github.com/sai-azero/Azero_SDK_for_Android/blob/master/docs/%E5%A3%B0%E6%99%BAAzero%E7%B3%BB%E7%BB%9F%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.md)
-- [Azero SDK API](/apk.md)
+- [Azero SDK API](/doc/apk.md)
 
 ##  注意事项<a id="attention"> </a>
 - 在Header Search Paths中添加
