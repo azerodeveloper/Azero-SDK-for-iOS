@@ -57,8 +57,7 @@ Azero for iOS 可支持在绝大多数iOS设备直接安装试用，可体验Aze
 3）打开Azero_Sample_for_iOS的demo示例
 
 3）将申请的client id 、product id 填入AppDemo的config.json中，并传入设备唯一标识，其他默认即可。示例如下所示：
-
-![demo](/Users/mac/Desktop/demo.png)
+![demo (/doc/demo.png)](/doc/demo.png)
 
 4）安装app到设备端
 
