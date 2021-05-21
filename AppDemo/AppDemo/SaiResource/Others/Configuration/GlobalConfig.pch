@@ -1,0 +1,133 @@
+//
+//  GlobalConfig.pch
+//  SaiIntelligentSpeakers
+//
+//  Created by silk on 2018/11/26.
+//  Copyright © 2018 soundai. All rights reserved.
+//
+
+#ifndef GlobalConfig_pch
+#define GlobalConfig_pch
+#ifdef __OBJC__
+#import "EUTDefine.h"
+#import "Singleton.h"
+#import "UserInfoContext.h"
+
+
+//屏幕适配
+#import "Masonry.h"
+#import "GKCover.h"
+
+//通知
+#import "SaiNotiNameConfig.h"
+
+// 分类方法
+
+#import "UIButton+YLY.h"
+
+#import "UIViewController+SaiNavBarItemExtension.h"
+#import "UIImage+SaiWJY.h"
+#import "UIFont+WN.h"
+#import "UILabel+TP_LQYlabel.h"
+#import "NSDate+Extension.h"
+#import "YYKit.h"
+#import "UIViewController+GKWYCategory.h"
+#import "UIView+GKExtension.h"
+#import "GKAudioPlayer.h"
+#import <AVFoundation/AVFoundation.h>
+#import "NSString+XCYCoreOperation.h"
+#import "NSData+XCYCoreTransfor.h"
+#import "XCYFileUtil.h"
+
+#import "UITableView+SaiScrollToIndexPath.h"
+#import "UIButton+EnlargeEdge.h"
+
+
+//#import "UIViewController+XNProgressHUD.h"
+
+
+//通知中心
+
+//通用工具类
+#import "SaiUIUtils.h"
+#import "SaiJsonConversionModel.h"
+#import "QKUITools.h"
+
+//网络请求
+#import "QKBaseHttpClient.h"
+#import "QKUITools.h"
+
+#import "GKDownloadModel.h"
+#import "MJRefresh.h"
+#import "MessageAlertView.h"
+
+
+//AzerSDK
+#import "SaiAzeroManager.h"
+
+#import "AudioQueuePlay.h"
+
+#import "SaiPlaySoundManager.h"
+
+#import "XBEchoCancellation.h"
+
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+
+#define GKWYMUSIC_USERDEFAULTSKEY_NETWORKSTATE  @"networkState"     // 网络状态
+#define GKWYMUSIC_USERDEFAULTSKEY_PLAYSTYLE     @"playStyle"        // 播放类型
+#define GKWYMUSIC_USERDEFAULTSKEY_LASTPLAYID    @"lastPlayId"       // 上一次播放id
+#define GKWYMUSIC_USERDEFAULTSKEY_PLAYINFO      @"playInfo"         // 播放信息
+
+#define    KeyChainDeviceIdStr                          @"soundai.com.WuNuo"
+
+
+#define GKWYMUSIC_NETWORKCHANGENOTIFICATION     @"NetworkChangeNotification"   // 网络状态改变
+#define GKWYMUSIC_PLAYSTATECHANGENOTIFICATION   @"playStateChangeNotification" // 播放状态改变
+#define GKWYMUSIC_PLAYMUSICCHANGENOTIFICATION   @"playMusicCHangeNotification" // 播放数据改变
+
+
+
+/*********************************颜色相关*************************************/
+
+#define GKColorRGBA(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+#define GKColorRGB(r, g, b)     GKColorRGBA(r, g, b, 1.0)
+#define GKColorGray(v)          GKColorRGB(v, v, v)
+
+#define kAPPDefaultColor        GKColorRGB(200, 38, 39)
+#define kAppLineColor           GKColorRGB(200, 200, 200)
+
+#define GKWYMUSIC_LOVEMUSICNOTIFICATION         @"loveMusicNotification"       // 喜欢音乐
+
+//版本信息
+#define     NewFeaturesVersion              @"NewFeatures_V1.0.0"
+
+#define     SaikIsLogin                     @"kIsLoginSoundAi"
+
+//#define     SaiSaveWifi                  [NSString stringWithFormat:@"SaiSaveWifiAndPwd%@",[WNUserLoginModel sharedWNUserLoginModel].userId]
+#define     SaiSaveWifi                  [NSString stringWithFormat:@"SaiSaveWifiAndPwd%@",@"123123"]
+
+#define     SetVolumeUrl      *           @"/v1/surrogate/audioplayer/volume"                //设置音量
+#define     DirectionsForUseUrl          @"https://api-azero.soundai.cn/v1/cmsservice/resource/31000224ada5fca4b1ab7f37d9f2544a.htm"  //使用说明
+#define     updateFirmwareBeforeUrl      @"/v1/surrogate/device/firmware/update"                    //更新固件版本(老接口)
+#define     obtainLatestVersionMinidotUrl       @"https://ota.soundai.cn/yg/minidot/update.json"
+#define     UserBindDeviceUrl            @"/v1/surrogate/users/device/bind"                  //绑定设备
+
+#define     otaUrl  @"https://app-azero.soundai.com.cn/downloads/SoundAI_Ta_pro.bin"
+//获取最新的固件下载版本
+#define     obtainLatestVersionMinipodUrl       @"https://ota.soundai.cn/yg/minipodplus/update.json"
+
+
+#define     obtainInterestTagUrl        @"/v1/surrogate/ta/tags/query"                    //获取用户选取的标签信息
+#define     uploadInterestTagUrl        @"/v1/surrogate/ta/tags/upload"                    //上传用户选取的标签信息
+
+
+#define     collectionAudioInformationUrl     @"/v1/surrogate/favorite2/collect"                  //音频信息收藏
+#define     collectionAlbumUrl                @"/v1/surrogate/favorite2/collect/series"           //收藏专辑剧集
+#define     cancelCollectionAlbumUrl          @"/v1/surrogate/favorite2/cancel-collect"           //取消收藏
+#define     obtainCollectListUrl              @"/v1/surrogate/favorite2/list"                    //获取收藏列表信息
+#define     playSongCollectListUrl              @"/v1/surrogate/audioplayer/play/single"              //播放歌曲
+
+#endif
+#endif /* GlobalConfig_pch */

@@ -1,0 +1,53 @@
+platform :ios, '12.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AppDemo' do
+  
+  #   消除警告
+  inhibit_all_warnings!
+  
+  
+  use_frameworks!
+  pod 'AFNetworking'
+  pod 'CocoaTag'
+  pod 'MJRefresh'
+
+  pod 'IQKeyboardManager'
+  pod 'TZImagePickerController'
+  pod 'Masonry'
+  # 数据解析框架
+  pod 'JhtMarquee' # 跑马灯
+  pod 'GKCover'                         # 遮罩
+  pod 'SDWebImage'                      # 图片缓存框架
+  pod 'FreeStreamer'                    # 音频播放
+  pod 'RealReachability'
+  pod 'Reachability'
+  pod 'ZCAnimatedLabel'
+  pod 'QQCorner'
+  pod 'UMCCommon'
+  pod 'UMCShare/Social/ReducedWeChat'
+  pod 'UMCShare/Social/Sina'
+  pod 'WechatOpenSDK'
+  pod 'SuperPlayer'
+  pod 'UMCPush'
+#  pod 'AMapNavi-NO-IDFA'
+#  pod 'AMapSearch-NO-IDFA'
+#  pod 'AMapLocation-NO-IDFA'
+  pod 'YYKit'
+  
+  
+  
+  
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 9.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+    end
+  end
+end
+

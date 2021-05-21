@@ -1,0 +1,2 @@
+/Users/mike/Desktop/heiscomingApp/HeIsComing/HeIsComing/AzeroConfig/deliver/lib/libAzeroEngine.a filter=lfs diff=lfs merge=lfs -text
+/Users/mike/Desktop/heiscomingApp/HeIsComing/Pods/TXLiteAVSDK_Player/TXLiteAVSDK_Player/SDK/TXLiteAVSDK_Player.framework/TXLiteAVSDK_Player filter=lfs diff=lfs merge=lfs -text

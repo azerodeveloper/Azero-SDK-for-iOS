@@ -1,0 +1,140 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaTag (0.1.1)
+  - FreeStreamer (4.0.0):
+    - Reachability (~> 3.0)
+  - GKCover (2.5.5)
+  - IQKeyboardManager (6.5.6)
+  - JhtMarquee (1.0.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - QQCorner (1.2.0)
+  - Reachability (3.2)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - SuperPlayer (3.3.3):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - SuperPlayer/Player (= 3.3.3)
+  - SuperPlayer/Player (3.3.3):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - TXLiteAVSDK_Player
+  - TXLiteAVSDK_Player (7.9.9565)
+  - TZImagePickerController (3.5.1)
+  - UMCCommon (7.2.2)
+  - UMCPush (3.3.1):
+    - UMCCommon
+  - UMCShare/Core (6.10.1):
+    - UMCCommon
+  - UMCShare/Social/ReducedSina (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - WechatOpenSDK (1.8.7.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZCAnimatedLabel (0.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaTag
+  - FreeStreamer
+  - GKCover
+  - IQKeyboardManager
+  - JhtMarquee
+  - Masonry
+  - MJRefresh
+  - QQCorner
+  - Reachability
+  - RealReachability
+  - SDWebImage
+  - SuperPlayer
+  - TZImagePickerController
+  - UMCCommon
+  - UMCPush
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/Social/Sina
+  - WechatOpenSDK
+  - YYKit
+  - ZCAnimatedLabel
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaTag
+    - FreeStreamer
+    - GKCover
+    - IQKeyboardManager
+    - JhtMarquee
+    - Masonry
+    - MJRefresh
+    - QQCorner
+    - Reachability
+    - RealReachability
+    - SDWebImage
+    - SuperPlayer
+    - TXLiteAVSDK_Player
+    - TZImagePickerController
+    - UMCCommon
+    - UMCPush
+    - UMCShare
+    - WechatOpenSDK
+    - YYKit
+    - ZCAnimatedLabel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaTag: 4e38c5ab322daa8f087f756ef2525ae385f886ac
+  FreeStreamer: 7e9c976045701ac2f7e9c14c17245203c37bf2ea
+  GKCover: 54663b6ee16ea0b4c0e203a0ffd5a0622223af6e
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JhtMarquee: 38eb0ceb3d515092e77a88b9005e2179c7cd1b2d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  QQCorner: 4b36884777214c79a83ed053d6ce4058140f6aff
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SuperPlayer: 500267cc247b7bc32e944951afda20f91e311bac
+  TXLiteAVSDK_Player: 1e174994f478514c72a7db06d9b04e5968db6cdd
+  TZImagePickerController: 21b5e8af2458053ec55b33044316d87c366d7707
+  UMCCommon: 15e5311b00c7ff6e6ffb1f5c965651373b6b2b3c
+  UMCPush: af977ec99bbf34558825e907c58f6b76f6c7f897
+  UMCShare: 0846449c689e8bf6793a941b97f51f9afff927ef
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
+
+PODFILE CHECKSUM: 5f8c46ea0136484e4fb42da63af6fdeb06e336ba
+
+COCOAPODS: 1.10.0

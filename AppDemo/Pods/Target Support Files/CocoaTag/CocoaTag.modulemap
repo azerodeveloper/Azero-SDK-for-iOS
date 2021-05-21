@@ -1,0 +1,6 @@
+framework module CocoaTag {
+  umbrella header "CocoaTag-umbrella.h"
+
+  export *
+  module * { export * }
+}

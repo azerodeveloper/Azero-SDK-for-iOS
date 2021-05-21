@@ -1,0 +1,117 @@
+{
+    "deviceInfo": {
+        "clientId": "5ed1c11dfb98fe000a6e5857",
+        "deviceSerialNumber": "ios_silk11081108",
+        "productId": "ta_nochat"
+    },
+    "aace.alexa": { 
+      "system": {
+        "firmwareVersion": 20191120,
+        "volume": 60,
+        "wifi_ssid": "Soundai-TEST-2.4G", 
+        "bluetooth_active": true,
+        "mac": "B0:CE:18:F4:FC:31",
+        "ip": "172.16.19.143"
+      },
+      "speechRecognizer": {
+        "encoder": {
+          "name": "opus"
+        }
+      }
+    },
+    "aace.cbl": {
+        "cbl_endpoint": "https://api-fat-azero.soundai.cn/v1/auth/access",
+        "def_endpoint": "https://fat-azero.soundai.cn"
+    },
+    "aace.opendenoise": {
+      "debug": {
+        "saveWakeupData": true,
+        "saveRawWakeupData": false,
+        "saveRawAsrData": false,
+        "rawDataSendDelaySec": 1,
+        "maxRawDataNums": 1
+      },
+      "licenseKey": "tBwBAAABV4tOOG5tTENomVx7tFw+G7A+7yFlw5oI3W5qY1QKzNrYMe3YzqDIgMbBpJibQqtVom58ESWx42SsS6Zeaya5ih7e8s//BteVsHy/MQcUTYOrmp66RSfzka+i8r7MvpXne/A2hpghTtx0Areb4q3vPFrBGIBayMidXACE/yxrOmLq6J/g11LdbJ9cPsdhD/jqg8UR71CM9dB4rWBzSYXj0q7A+Ue0YR77ikWEV/T6Nt8HT+KJ6Eq3WWKWJ+a4L4LUB91iU9R1ZRaxbOeDdGRYRXbpLh6xCsUz+v3/cQqqwDEHmoubsQ3bJtjvsuhnckqLnqWImPWmN8QlpPbEI2kJ+URhqz5bQeQubmQBupQd0bhCRkmjJzb7a8TqOzlv+/torTdPNDUqCt2w965LwHXvCAH5HJSrRztgymepiQOn68qErVEpkO+QJc6NGvHagXAKo7RjF8MAP0VNYM/5LhainewSTJ7Evinu4E0/lTa3pxWYQEIIgRY6WxlgXBUpxbd0zkFPNNJTQ86VBcFgdRFW1fAFg/4uS7GKJ9LRnxUI2kkkhWP+amoGpSVkL7jg+G6E8l2CBQrzUnTF0DJShkUAF+xFk2RwQLdC0t9LDyw7HUk=",
+      "defaultModelName": "normal",
+      "defaultWakeupMode": "wakeupFree",
+      "wakeupModels": [
+          {
+              "name": "normal",
+              "folderPath": "OpenDenoiseLib"
+          }
+      ]
+    },
+    "libcurlUtils": {
+        "CURLOPT_CAPATH": ""
+    },
+    "miscDatabase": {
+        "databaseFilePath": "./miscDatabase.db"
+    },
+    "certifiedSender": {
+        "databaseFilePath": "./certifiedSender.db"
+    },
+    "alertsCapabilityAgent": {
+        "databaseFilePath": "./alertsCapabilityAgent.db"
+    },
+    "notifications": {
+        "databaseFilePath": "./notifications.db"
+    },
+    "settings": {
+        "databaseFilePath": "./settings.db",
+        "defaultAVSClientSettings": {
+            "locale": "CN"
+        }
+    },
+    "aace.storage": {
+        "localStoragePath": "./sample-aace.db",
+        "storageType": "sqlite"
+    },
+    "aace.navigation":{
+        "providerName": "amap"
+    },
+    "aace.vehicle": {
+        "info": {
+            "make": "Azero",
+            "model": "Azero",
+            "year": "2019",
+            "trim": "v2",
+            "geography": "CN",
+            "version": "1.2.3",
+            "os": "Sample OS 1.0",
+            "arch": "Sample Arch 1.0",
+            "language": "en-US",
+            "microphone": "SingleArray",
+            "countries": "US,GB,IE,CA,DE,AT,IN,JP,AU,NZ,FR",
+            "vehicleIdentifier": "Sample Identifier ABC"
+        },
+        "operatingCountry": "CN"
+    },
+	"aace.logger": {
+		"sinks": [{
+			"id": "azero",
+			"type": "aace.logger.sink.file",
+			"config": {
+				"path": "/tmp/",
+				"prefix": "azero",
+				"maxSize": 1048576,
+				"maxFiles": 1,
+				"append": true
+			}
+		}],
+		"rules": [{
+				"sink": "azero",
+				"rule": {
+					"level": "DEBUG9"
+				}
+			},
+			{
+				"sink": "default",
+				"rule": {
+					"level": "DEBUG9"
+				}
+			}
+		]
+	}    
+}
+
+

@@ -1,0 +1,2 @@
+libAzeroEngine.a filter=lfs diff=lfs merge=lfs -text
+TXLiteAVSDK_Player filter=lfs diff=lfs merge=lfs -text
