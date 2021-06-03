@@ -1,0 +1,9 @@
+Name: AlexaClientSDK
+Description: A cross-platform, modular SDK for interacting with the Alexa Voice Service
+Version: 1.11.0
+Requires: libcurl sqlite3
+prefix=/Users/soundai/workpace/1__azero-sdk/azero_sdk/deliver_OS64
+includedir=${prefix}/include
+libdir=${prefix}/lib
+Libs: -L${libdir} -lAVSCommon -lAVSCommon -lACL -lADSL -lAFML -lDeviceSettings -lEqualizerImplementations -lCertifiedSender -lContextManager -lCapabilitiesDelegate -lPlaylistParser -lKWD -lAIP -lAlerts -lAudioPlayer -lBluetooth -lDoNotDisturbCA -lEqualizer -lExternalMediaPlayer -lInteractionModel -lMRM -lNotifications -lPlaybackController -lSpeakerManager -lSpeechSynthesizer -lSettings -lAVSSystem -lTemplateRuntime -lDefaultClient -lAudioResources -lESP -lRegistrationManager -lCBLAuthDelegate -lSpeechEncoder -lOpusEncoderContext -lSQLiteStorage
+Cflags: -I${includedir}

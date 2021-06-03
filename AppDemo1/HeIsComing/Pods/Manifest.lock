@@ -1,0 +1,167 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AMapFoundation-NO-IDFA (1.6.5.1)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapNavi-NO-IDFA (7.7.1):
+    - AMapFoundation-NO-IDFA (~> 1.6.5)
+  - AMapSearch-NO-IDFA (7.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - FreeStreamer (4.0.0):
+    - Reachability (~> 3.0)
+  - GKCover (2.5.4)
+  - IQKeyboardManager (6.5.5)
+  - JhtMarquee (1.0.6)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.1)
+  - QQCorner (1.2.0)
+  - Reachability (3.2)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - SDWebImage (5.7.1):
+    - SDWebImage/Core (= 5.7.1)
+  - SDWebImage/Core (5.7.1)
+  - SuperPlayer (3.2.7):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - SuperPlayer/Player (= 3.2.7)
+  - SuperPlayer/Player (3.2.7):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - TXLiteAVSDK_Player (= 7.4.9203)
+  - SVProgressHUD (2.2.5)
+  - TXLiteAVSDK_Player (7.4.9203)
+  - TZImagePickerController (3.3.2)
+  - UMCAnalytics (6.1.0):
+    - UMCCommon
+  - UMCCommon (2.1.4)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCShare/Core (6.9.8):
+    - UMCCommon
+  - UMCShare/Social/ReducedSina (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - WechatOpenSDK (1.8.7.1)
+  - XNProgressHUD (1.1.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZCAnimatedLabel (0.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMapLocation-NO-IDFA
+  - AMapNavi-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - FreeStreamer
+  - GKCover
+  - IQKeyboardManager
+  - JhtMarquee
+  - Masonry
+  - MJExtension
+  - QQCorner
+  - Reachability
+  - RealReachability
+  - SDWebImage
+  - SuperPlayer
+  - SVProgressHUD
+  - TZImagePickerController (~> 3.3.2)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/Social/Sina
+  - WechatOpenSDK
+  - XNProgressHUD
+  - YYKit
+  - ZCAnimatedLabel
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapNavi-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - FreeStreamer
+    - GKCover
+    - IQKeyboardManager
+    - JhtMarquee
+    - Masonry
+    - MJExtension
+    - QQCorner
+    - Reachability
+    - RealReachability
+    - SDWebImage
+    - SuperPlayer
+    - SVProgressHUD
+    - TXLiteAVSDK_Player
+    - TZImagePickerController
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCShare
+    - WechatOpenSDK
+    - XNProgressHUD
+    - YYKit
+    - ZCAnimatedLabel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AMapFoundation-NO-IDFA: 0cf5f6c6de2725bcd868ed5aa756d12bc1a8f463
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  AMapNavi-NO-IDFA: df7e37e459a3ef7ec5098d1eb89fbf72ffdd0468
+  AMapSearch-NO-IDFA: 061479dd567486fb59bf3d01b1076c81d910f1b6
+  FreeStreamer: 7e9c976045701ac2f7e9c14c17245203c37bf2ea
+  GKCover: 5340b5d73adf127a72a4a7649fe3bc6f734f7d23
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JhtMarquee: 38eb0ceb3d515092e77a88b9005e2179c7cd1b2d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  QQCorner: 4b36884777214c79a83ed053d6ce4058140f6aff
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  SDWebImage: 5d4cf6afccd9ac1d2ee701ed0c4917cbb1b80536
+  SuperPlayer: 870f943de7d9ab8b20b7b9fbba26c26038240bce
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TXLiteAVSDK_Player: 8452cc0a8fefcba329dea6bd3f8119c76538eee4
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  UMCAnalytics: 3503f179f7af932b30af9ac161ac11fb48fa72b6
+  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  XNProgressHUD: 5b9a7f1a484af6db05af1463ae00a00b645c1468
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
+
+PODFILE CHECKSUM: 8c1e7581f38399244d137426e6cbbfd06925eb33
+
+COCOAPODS: 1.10.0

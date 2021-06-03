@@ -228,6 +228,7 @@ static bool isDeal=NO;
 //    }];
 }
 -(void)dealDataSource:(NSString *)renderTemplateStr withSkip:(BOOL )skip{
+    TYLog(@"当前线程 ： %@",[NSThread currentThread]);
     dispatch_async(dispatch_get_main_queue(), ^{
         
         WXBaseModel *temporaryBaseModel=[WXBaseModel modelWithJSON:renderTemplateStr];

@@ -1,0 +1,44 @@
+platform :ios, '11.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HeIsComing' do
+  
+  #   消除警告
+  inhibit_all_warnings!
+  
+  
+  use_frameworks!
+  pod 'AFNetworking'
+  
+  pod 'IQKeyboardManager'
+  pod 'TZImagePickerController', '~> 3.3.2'
+  pod 'Masonry'
+  # 数据解析框架
+  pod 'JhtMarquee' # 跑马灯
+  pod 'GKCover'                         # 遮罩
+  pod 'SDWebImage'                      # 图片缓存框架
+  pod 'FreeStreamer'                    # 音频播放
+  pod 'MJExtension'
+  pod 'RealReachability'
+  pod 'Reachability'
+  pod 'ZCAnimatedLabel'
+  pod 'QQCorner'
+  pod 'UMCCommon'
+  pod 'UMCAnalytics'
+  pod 'UMCShare/Social/ReducedWeChat'
+  pod 'UMCShare/Social/Sina'
+  pod 'WechatOpenSDK'
+  pod 'SuperPlayer'
+  pod 'UMCPush'
+  pod 'XNProgressHUD'
+  pod 'SVProgressHUD'
+  pod 'YYKit'
+  pod 'AMapNavi-NO-IDFA'
+  pod 'AMapSearch-NO-IDFA'
+  pod 'AMapLocation-NO-IDFA'
+
+  
+  
+  
+end

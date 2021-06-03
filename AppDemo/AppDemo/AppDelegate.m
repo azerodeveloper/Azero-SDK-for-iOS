@@ -25,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    SaiContext.currentUser.token = @"864fd9ee-df1c-475d-b1b8-6c8298793317";
     NSString * currentDeviceUUIDStr =[[NSString alloc]initWithData:[QKKeyChain getCertificateWith:@"UUID"] encoding:NSUTF8StringEncoding];
     if (currentDeviceUUIDStr == nil || [currentDeviceUUIDStr isEqualToString:@""]){
        NSUUID * currentDeviceUUID  = [UIDevice currentDevice].identifierForVendor;

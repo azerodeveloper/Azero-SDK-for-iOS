@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-HeIsComing/Pods-HeIsComing-resources.sh
+${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMapNavi.bundle
+${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMap.bundle
+${PODS_ROOT}/SuperPlayer/Demo/TXLiteAVDemo/SuperPlayerKit/SuperPlayer/Resource/SuperPlayer.bundle
+${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle
